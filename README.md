@@ -10,6 +10,7 @@
 ## 安装
 
 可以选择期待的对应语言进行运行或编译运行，项目是基于QtSDK 5.10/5.11版本的，但可以使用5.7版本以上的库运行，更低版本还没有测试过。
+
 请使用以下命令进行下载
 ```shell
 git clone https://github.com/Ruilx/TermColor
