@@ -1,0 +1,49 @@
+# git ignore file
+# Create By Ruilx
+
+# C/C++ output files
+*.o
+*.obj
+*.out
+
+# C/C++ dynamic libraries
+*.so
+*.so.*
+*.dll
+
+# C/C++ static libraries
+*.lib
+lib*.a
+*.a
+
+# C/C++ executable files
+*.exe
+*.bin
+*.app
+*.run
+
+# C/C++ makefiles
+Makefile*
+
+# System resources
+*.rc
+*_resource.rc
+
+# QtCreator/QMake generated files
+*.autosave
+*.pro.user*
+/.qmake.cache
+/.qmake.stash
+*.prl
+
+# QtMoc/Ui/qrc generated files
+*.moc
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+*.qm
+
+# Debug/Release folders
+debug/
+profile/
+release/

@@ -1,0 +1,95 @@
+# git ignore file
+# Create By Ruilx
+
+# Basic ignore
+*~
+*.core
+*.orig
+*.rej
+*._pch.h.cpp
+.#*
+*.*#
+core
+!core/
+tags
+*.debug
+
+# System folders/directories temporary files
+Thumbs.db
+desktop.ini
+System\ Volume\ Information
+.DS_Store
+.Trash
+.directory
+autorun.inf
+
+# SSH/Putty private keys
+.ssh/
+id_rsa
+id_dsa
+known_hosts
+*.ppk
+
+# XEmacs temporary files
+*.flc
+
+# Vim temporary files
+.*.swp
+
+# Editplus Backup files
+*.bak
+
+# Jetbrains idea floders
+.idea/
+
+# Keil generated files
+*.uvgui.*
+
+# Eclipse generated files
+.settings/
+.metadata/
+.cache-main
+
+# Old files
+*.old
+
+# Log files
+*.log
+
+# Visual Studio generated files
+*.ib_pdb_index
+*.idb
+*.ilk
+*.pdb
+*.sln
+*.suo
+*.vcproj
+*vcproj.*.*.user
+*.ncb
+*.sdf
+*.opensdf
+*.vcxproj
+*vcxproj.*
+*.res
+
+# QMake generated files
+*.Debug
+*.Release
+
+# Java byte code files
+*.class
+
+# Python byte code files
+*.pyc
+
+# Python pickle save 
+*.pkl
+
+# Python cache folder
+__pycache__
+
+# Backup floders
+backup/
+backups/
+Backup/
+Backups/
